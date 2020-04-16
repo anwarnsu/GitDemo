@@ -1,0 +1,7 @@
+09:30:29.909 [main] FATAL MavenTutorial.Log4jDemo - This is fatal message
+09:30:29.912 [main] ERROR MavenTutorial.Log4jDemo - This is error message
+09:31:03.943 [main] ERROR MavenTutorial.Log4jDemo - This is an error message
+09:31:03.943 [main] FATAL MavenTutorial.Log4jDemo - This is an fatal message
+09:31:03.943 [main] ERROR MavenTutorial.Log4jDemo - error message
+09:31:03.943 [main] FATAL MavenTutorial.Log4jDemo - fatal message
+09:31:03.948 [main] FATAL MavenTutorial.Log4jDemo - This is fatal message

@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="14" passed="13">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="105" started-at="2020-04-15T15:08:47 EDT" finished-at="2020-04-15T15:08:47 EDT">
+    <groups>
+      <group name="Smoke">
+        <method signature="Demo1Test.Demo()[pri:0, instance:MavenTutorial.Demo1Test@78e67e0a]" name="Demo" class="MavenTutorial.Demo1Test"/>
+        <method signature="Demo2Test.ploan()[pri:0, instance:MavenTutorial.Demo2Test@17d677df]" name="ploan" class="MavenTutorial.Demo2Test"/>
+        <method signature="Demo3Test.MobileSignInCarLoan()[pri:0, instance:MavenTutorial.Demo3Test@76b0bfab]" name="MobileSignInCarLoan" class="MavenTutorial.Demo3Test"/>
+        <method signature="Demo3Test.MobileloginCarLoan()[pri:0, instance:MavenTutorial.Demo3Test@76b0bfab]" name="MobileloginCarLoan" class="MavenTutorial.Demo3Test"/>
+        <method signature="Demo4Test.LoginApiHomeloan()[pri:0, instance:MavenTutorial.Demo4Test@3043fe0e]" name="LoginApiHomeloan" class="MavenTutorial.Demo4Test"/>
+        <method signature="Demo4Test.MobileLogicHomeLoan()[pri:0, instance:MavenTutorial.Demo4Test@3043fe0e]" name="MobileLogicHomeLoan" class="MavenTutorial.Demo4Test"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="Test" duration-ms="105" started-at="2020-04-15T15:08:47 EDT" finished-at="2020-04-15T15:08:47 EDT">
+      <class name="MavenTutorial.Demo4Test">
+        <test-method status="PASS" signature="LoginApiHomeloan()[pri:0, instance:MavenTutorial.Demo4Test@3043fe0e]" name="LoginApiHomeloan" duration-ms="2" started-at="2020-04-15T15:08:47 EDT" finished-at="2020-04-15T15:08:47 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginApiHomeloan -->
+        <test-method status="PASS" signature="MobileLogicHomeLoan()[pri:0, instance:MavenTutorial.Demo4Test@3043fe0e]" name="MobileLogicHomeLoan" duration-ms="1" started-at="2020-04-15T15:08:47 EDT" finished-at="2020-04-15T15:08:47 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLogicHomeLoan -->
+        <test-method status="PASS" signature="WebloginHomeLoan()[pri:0, instance:MavenTutorial.Demo4Test@3043fe0e]" name="WebloginHomeLoan" duration-ms="1" started-at="2020-04-15T15:08:47 EDT" finished-at="2020-04-15T15:08:47 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebloginHomeLoan -->
+      </class> <!-- MavenTutorial.Demo4Test -->
+      <class name="MavenTutorial.Demo3Test">
+        <test-method status="PASS" signature="BeforeSuite()[pri:0, instance:MavenTutorial.Demo3Test@76b0bfab]" name="BeforeSuite" is-config="true" duration-ms="12" started-at="2020-04-15T15:08:47 EDT" finished-at="2020-04-15T15:08:47 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeSuite -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:MavenTutorial.Demo3Test@76b0bfab]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2020-04-15T15:08:47 EDT" finished-at="2020-04-15T15:08:47 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="BeforeMethod2()[pri:0, instance:MavenTutorial.Demo3Test@76b0bfab]" name="BeforeMethod2" is-config="true" duration-ms="0" started-at="2020-04-15T15:08:47 EDT" finished-at="2020-04-15T15:08:47 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod2 -->
+        <test-method status="PASS" signature="LoginApiCarloan()[pri:0, instance:MavenTutorial.Demo3Test@76b0bfab]" name="LoginApiCarloan" duration-ms="2" started-at="2020-04-15T15:08:47 EDT" finished-at="2020-04-15T15:08:47 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginApiCarloan -->
+        <test-method status="PASS" signature="BeforeMethod2()[pri:0, instance:MavenTutorial.Demo3Test@76b0bfab]" name="BeforeMethod2" is-config="true" duration-ms="1" started-at="2020-04-15T15:08:47 EDT" finished-at="2020-04-15T15:08:47 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod2 -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:MavenTutorial.Demo3Test@76b0bfab]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2020-04-15T15:08:47 EDT" finished-at="2020-04-15T15:08:47 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="MobileLogicCarLoan(java.lang.String, java.lang.String)[pri:0, instance:MavenTutorial.Demo3Test@76b0bfab]" name="MobileLogicCarLoan" duration-ms="1" started-at="2020-04-15T15:08:47 EDT" data-provider="getData" finished-at="2020-04-15T15:08:47 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firstsetusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firstpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLogicCarLoan -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:MavenTutorial.Demo3Test@76b0bfab]" name="BeforeMethod" is-config="true" duration-ms="1" started-at="2020-04-15T15:08:47 EDT" finished-at="2020-04-15T15:08:47 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="BeforeMethod2()[pri:0, instance:MavenTutorial.Demo3Test@76b0bfab]" name="BeforeMethod2" is-config="true" duration-ms="0" started-at="2020-04-15T15:08:47 EDT" finished-at="2020-04-15T15:08:47 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod2 -->
+        <test-method status="PASS" signature="MobileLogicCarLoan(java.lang.String, java.lang.String)[pri:0, instance:MavenTutorial.Demo3Test@76b0bfab]" name="MobileLogicCarLoan" duration-ms="0" started-at="2020-04-15T15:08:47 EDT" data-provider="getData" finished-at="2020-04-15T15:08:47 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[secondsetusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secondpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLogicCarLoan -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:MavenTutorial.Demo3Test@76b0bfab]" name="BeforeMethod" is-config="true" duration-ms="1" started-at="2020-04-15T15:08:47 EDT" finished-at="2020-04-15T15:08:47 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="MobileLogicCarLoan(java.lang.String, java.lang.String)[pri:0, instance:MavenTutorial.Demo3Test@76b0bfab]" name="MobileLogicCarLoan" duration-ms="1" started-at="2020-04-15T15:08:47 EDT" data-provider="getData" finished-at="2020-04-15T15:08:47 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[thirdsetusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[thirdpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLogicCarLoan -->
+        <test-method status="PASS" signature="BeforeMethod2()[pri:0, instance:MavenTutorial.Demo3Test@76b0bfab]" name="BeforeMethod2" is-config="true" duration-ms="0" started-at="2020-04-15T15:08:47 EDT" finished-at="2020-04-15T15:08:47 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod2 -->
+        <test-method status="PASS" signature="BeforeMethod2()[pri:0, instance:MavenTutorial.Demo3Test@76b0bfab]" name="BeforeMethod2" is-config="true" duration-ms="0" started-at="2020-04-15T15:08:47 EDT" finished-at="2020-04-15T15:08:47 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod2 -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:MavenTutorial.Demo3Test@76b0bfab]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2020-04-15T15:08:47 EDT" finished-at="2020-04-15T15:08:47 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="MobileSignInCarLoan()[pri:0, instance:MavenTutorial.Demo3Test@76b0bfab]" name="MobileSignInCarLoan" duration-ms="0" started-at="2020-04-15T15:08:47 EDT" finished-at="2020-04-15T15:08:47 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileSignInCarLoan -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:MavenTutorial.Demo3Test@76b0bfab]" name="BeforeMethod" is-config="true" duration-ms="1" started-at="2020-04-15T15:08:47 EDT" finished-at="2020-04-15T15:08:47 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="BeforeMethod2()[pri:0, instance:MavenTutorial.Demo3Test@76b0bfab]" name="BeforeMethod2" is-config="true" duration-ms="1" started-at="2020-04-15T15:08:47 EDT" finished-at="2020-04-15T15:08:47 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod2 -->
+        <test-method status="PASS" signature="MobileSignOutCarLoan()[pri:0, instance:MavenTutorial.Demo3Test@76b0bfab]" name="MobileSignOutCarLoan" duration-ms="4" started-at="2020-04-15T15:08:47 EDT" finished-at="2020-04-15T15:08:47 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileSignOutCarLoan -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:MavenTutorial.Demo3Test@76b0bfab]" name="BeforeMethod" is-config="true" duration-ms="2" started-at="2020-04-15T15:08:47 EDT" finished-at="2020-04-15T15:08:47 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="MobileloginCarLoan()[pri:0, instance:MavenTutorial.Demo3Test@76b0bfab]" name="MobileloginCarLoan" duration-ms="1" started-at="2020-04-15T15:08:47 EDT" finished-at="2020-04-15T15:08:47 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileloginCarLoan -->
+        <test-method status="PASS" signature="BeforeMethod2()[pri:0, instance:MavenTutorial.Demo3Test@76b0bfab]" name="BeforeMethod2" is-config="true" duration-ms="0" started-at="2020-04-15T15:08:47 EDT" finished-at="2020-04-15T15:08:47 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod2 -->
+        <test-method status="FAIL" signature="WebloginCarLoan(java.lang.String)[pri:0, instance:MavenTutorial.Demo3Test@76b0bfab]" name="WebloginCarLoan" duration-ms="0" started-at="2020-04-15T15:08:47 EDT" finished-at="2020-04-15T15:08:47 EDT">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'URL' is required by @Test on method WebloginCarLoan but has not been marked @Optional or defined
+in C:\Users\anwar\MavenProject\testngd3.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'URL' is required by @Test on method WebloginCarLoan but has not been marked @Optional or defined
+in C:\Users\anwar\MavenProject\testngd3.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:268)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:875)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:788)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:767)
+at org.testng.TestRunner.run(TestRunner.java:588)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+at org.testng.TestNG.runSuites(TestNG.java:1066)
+at org.testng.TestNG.run(TestNG.java:1034)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebloginCarLoan -->
+        <test-method status="PASS" signature="AfterClass()[pri:0, instance:MavenTutorial.Demo3Test@76b0bfab]" name="AfterClass" is-config="true" duration-ms="0" started-at="2020-04-15T15:08:47 EDT" finished-at="2020-04-15T15:08:47 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterClass -->
+      </class> <!-- MavenTutorial.Demo3Test -->
+      <class name="MavenTutorial.Demo1Test">
+        <test-method status="PASS" signature="Demo()[pri:0, instance:MavenTutorial.Demo1Test@78e67e0a]" name="Demo" duration-ms="1" started-at="2020-04-15T15:08:47 EDT" finished-at="2020-04-15T15:08:47 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+        <test-method status="PASS" signature="SecondTest()[pri:0, instance:MavenTutorial.Demo1Test@78e67e0a]" name="SecondTest" duration-ms="4" started-at="2020-04-15T15:08:47 EDT" finished-at="2020-04-15T15:08:47 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SecondTest -->
+        <test-method status="PASS" signature="LastExecution()[pri:0, instance:MavenTutorial.Demo1Test@78e67e0a]" name="LastExecution" is-config="true" duration-ms="1" started-at="2020-04-15T15:08:47 EDT" finished-at="2020-04-15T15:08:47 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LastExecution -->
+      </class> <!-- MavenTutorial.Demo1Test -->
+      <class name="MavenTutorial.Demo2Test">
+        <test-method status="PASS" signature="prerequisite()[pri:0, instance:MavenTutorial.Demo2Test@17d677df]" name="prerequisite" is-config="true" duration-ms="1" started-at="2020-04-15T15:08:47 EDT" finished-at="2020-04-15T15:08:47 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prerequisite -->
+        <test-method status="PASS" signature="ploan()[pri:0, instance:MavenTutorial.Demo2Test@17d677df]" name="ploan" duration-ms="5" started-at="2020-04-15T15:08:47 EDT" finished-at="2020-04-15T15:08:47 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ploan -->
+      </class> <!-- MavenTutorial.Demo2Test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
